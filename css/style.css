@@ -9,6 +9,7 @@ body{
     background-size: 100%; */
     background-position: 0% 0%;
     margin: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 #container{
     background-image: url(/img/Teste-Fundo.png);
@@ -58,55 +59,149 @@ body{
     padding: 0 20px;
 }
 #bi-instagram:hover{
-    color: #E81239;
+    color: #ff002f;
+    transition: 400ms;
 }
 #bi-linkedin:hover{
     color: #0645DC;
+    transition: 400ms;
 }
 #bi-git:hover{
     color: white;
+    transition: 400ms;
 }
 #bi-email:hover{
     color: rgb(157, 4, 252);
+    transition: 400ms;
 }
-/***** CONTAINER LINKS *****/
+/***** LISTA LINKS *****/
 
 #containerLinks{
+    margin-top: -18px;
     width: 100%;
-    height: 100vh;
-    background-color: rgb(99, 99, 99);
+    height: 100%;
+    background-color: rgb(153, 153, 153);
+    border-radius: 20px 20px 0px 0px;
 }
 #listaLinks{
     margin: 0 auto;
     width: 90%;
-    height: 800px;
-    background-color: #c4ddf8;
+    height: 100%;
+    background-color: #ffffff;
 }
 .txtLinks{
     padding-bottom: 50px;
-    padding-top: 20px;
+    padding-top: 25px;
     margin: 0 auto;
-    width: 80%;
+    width: 90%;
     height: 20px;
     font-size: 19px;
 }
 #testando{
-display: flex;
+    display: flex;
 }
 #column {
     margin: 0 auto;
-    width: 80%;
+    width: 90%;
     /* height: 100vh;  */
     text-align: center;
 }
-#column a{
-    border-radius: 10px;
+#testeLinkDiv{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding: 20px 0;
+}
+#columnListaAncoras{
     display: flex;
     justify-content: left;
     text-decoration: none;
+    line-height: 30px;
     padding: 20px 10px;
-    font-size: 20px;
+    margin-bottom: 0px;
+    font-size: 16px;
     width:100%;
-    background-color: #fffbfc;
-    border-bottom: solid rgb(0, 0, 0) 2px;
+    font-weight: 600;
+    color: #0645DC;
+    background-color: #ffffff;
+    border-bottom: solid #c9c9c9 2px;
+}
+#columnListaAncoras:hover{
+    background-color: #0645DC;
+    color: #ffffff;
+    border-radius: 10px;
+    transition: 500ms;
+    
+}
+/* Link Caed personalisado */
+#columnListaAncorasCaed{
+    display: flex;
+    justify-content: left;
+    text-decoration: none;
+    line-height: 30px;
+    padding: 20px 10px;
+    margin-bottom: 0px;
+    font-size: 16px;
+    width:100%;
+    font-weight: 600;
+    color: #0645DC;
+    background-color: #ffffff;
+    border-bottom: solid #c9c9c9 2px;
+}
+#columnListaAncorasCaed:hover{
+    background-color: #FF3300;
+    color: #ffffff;
+    border-radius: 10px;
+    transition: 500ms;
+}
+#setaVoltar{
+    width:  24px;
+    height: 24px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #c9c9c92b;
+    border-radius: 5px;
+}
+#testando{
+    width:  30px;
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #c9c9c92b;
+    border-radius: 5px;
+}
+/* Link Caed personalisado */
+#testandoCaed{
+    width:  30px;
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #c9c9c92b;
+    border-radius: 5px;
+}
+/***** FOOTER *****/
+.containerFooter{
+    width: 90%;
+    height: 170px;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer{
+    color: #7f7f7f;
+    margin: 0 auto; 
+    width: 80%; 
+    margin-top: 77px;
+    padding-top: 15px;
+    border-top: 2px solid #DDDDDD;
+    padding-top:20p;
+    position: absolute;
+    
+}
+.footer a {
+    text-decoration: none;
+    color: #7f7f7f;
+}
+.footer a span{
+    color: #0645DC;
+    font-weight: 900;
 }

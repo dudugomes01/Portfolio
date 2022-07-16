@@ -1,0 +1,66 @@
+#sectionProjetos{
+    width: 100%;
+    background-color: #ffffff48;
+    margin-bottom: 40px;
+}
+#txtPrincipaisP{
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 25px;
+}
+#containerProjetos{
+    margin: 0 auto;
+    text-align: center;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+#blocosCards{
+    margin: 0 auto;
+    padding-top: 15px;
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#cardProjetos{
+    margin: 10px auto;
+    text-align: center;
+    width: 90%;
+    width: 310px;
+    /* height: 380px; */
+    padding-top: 20px;
+    border-radius: 20px;
+    background-color: #c9c9c9;
+    border: 1px solid #c9c9c9;
+}
+#cardProjetos:hover{
+    box-shadow: 1px 1px 20px 2px rgb(0, 0, 0);
+    background-color: #FF3300 ;
+    border: 2px solid #000000;
+    color: #ffffff;
+}
+#cardProjetos img{
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    width: 300px;
+}
+#cardProjetos h2{
+    /* text-shadow:  rgb(0, 0, 0) 0px 0px 12px; */
+    letter-spacing: 4px;
+    font-weight: 900;
+    font-size: 20px;
+}
+#cardProjetos h4{
+    text-align: center;
+    padding-top: 15px;
+}
+
+#linkGit img{
+    margin-bottom: 20px;
+    width: 100px;
+    height: 30px;
+}
