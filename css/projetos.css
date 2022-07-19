@@ -47,6 +47,7 @@
     text-align: center;
     display: block;
     width: 300px;
+    border-radius: 5px;
 }
 #cardProjetos h2{
     /* text-shadow:  rgb(0, 0, 0) 0px 0px 12px; */

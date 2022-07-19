@@ -37,6 +37,8 @@ body{
     font-family: 'Montserrat', sans-serif;
     /* font-family: 'Montserrat', sans-serif; */
     color: white;
+    font-size: 18px;
+    font-weight: 500;
     margin-bottom: 1px;
 }
 #divName h3{
@@ -90,10 +92,12 @@ body{
     background-color: #ffffff;
 }
 .txtLinks{
+    font-size: 900;
+    color: black;
     padding-bottom: 50px;
     padding-top: 25px;
     margin: 0 auto;
-    width: 90%;
+    width: 80%;
     height: 20px;
     font-size: 19px;
 }
@@ -105,6 +109,14 @@ body{
     width: 90%;
     /* height: 100vh;  */
     text-align: center;
+}
+@media(min-width:1000px){
+    .txtLinks{
+        width: 50%;
+    }
+    #column{
+        width: 50%;
+    }
 }
 #testeLinkDiv{
     display: flex;
@@ -124,7 +136,7 @@ body{
     font-weight: 600;
     color: #0645DC;
     background-color: #ffffff;
-    border-bottom: solid #c9c9c9 2px;
+    border-bottom: solid #c9c9c9be 1px;
 }
 #columnListaAncoras:hover{
     background-color: #0645DC;
@@ -146,7 +158,7 @@ body{
     font-weight: 600;
     color: #0645DC;
     background-color: #ffffff;
-    border-bottom: solid #c9c9c9 2px;
+    border-bottom: solid #c9c9c9be 1px;
 }
 #columnListaAncorasCaed:hover{
     background-color: #FF3300;
@@ -187,7 +199,7 @@ body{
     text-align: center;
 }
 .footer{
-    color: #7f7f7f;
+    color: #000000;
     margin: 0 auto; 
     width: 80%; 
     margin-top: 77px;
@@ -199,7 +211,7 @@ body{
 }
 .footer a {
     text-decoration: none;
-    color: #7f7f7f;
+    color: #000000;
 }
 .footer a span{
     color: #0645DC;
